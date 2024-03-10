@@ -19,7 +19,6 @@ public class WebDriverConfig {
         //Запуск тестов в Yandex Browser
         System.setProperty("webdriver.chrome.driver", "src/main/resources/yandexdriver.exe");
        ChromeOptions options = new ChromeOptions();
-        //options.setBinary("/C:/Users/Анастасия/yandexdriver.exe/");
         return new ChromeDriver(options);
     }
 
